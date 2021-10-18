@@ -1,28 +1,19 @@
 enable    : true
-topTitle  : A LIST OF SERVICES
-title     : Our Service.
-subtitle  : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!
+topTitle  : 
+title     : Services
+subtitle  : In order to prepare your applications and projects for the information security demands of a growingly interconnected world, I am happy to provide my comprehensive experience in security engineering to you. Tailored towards your needs and based on 5+ years of experience in Security Engineering in industry as well as research, I will support you during the initial conception phase of your project, assist your with implementing cryptographic primitives or help you to evaluate the security levels of your existing projects.
 item      :
   - icon  : tf-ion-ios-copy-outline
-    title : Branding
+    title : Consulting
     list  :
-      - name : Brand Strategy
-      - name : Advertising / Campaigns
-      - name : Product Design
-      - name : Video / Photography
+      - name : Integrating a comprehensive security architecture during an early phase of your project ensures the highest degree of security during operation while maintaining a maximum of efficiency of your solution. Incorporating security aspects into the architecture of your solution right at the beginning of the project’s life cycle also helps to minimize maintenance efforts and costs as and allows for a higher flexibility allowing for changes in case of new demands.
 
   - icon  : tf-ion-ios-alarm-outline
-    title : Branding
+    title : Implementation
     list  :
-      - name : Web Design
-      - name : E- Commerce Site Design
-      - name : App Development
-      - name : Mobile UI Design
+      - name : A key point when realizing a security architecture or even a simple cryptographic routine lies in the secure implementation of well-known cryptographic primitives. Only well-crafted cryptographic implementations can apply and thus guarantee the security properties of the underlying primitives. In turn, bad implementations may weaken the security of your application despite the use of strong cryptographic primitives. On top, some platforms require lightweight primitives due to memory or computational constraints, which do not allow for the employment of traditional schemes, such as AES, RSA and such like. While lightweight novel lightweight hash functions, stream and block ciphers exist, they require special care during implementation as existing knowledge about secure implementation is not as accessible as for traditional schemes.
 
   - icon  : tf-ion-ios-book-outline
-    title : IOS App Development
+    title : Auditing
     list  :
-      - name : Game Development
-      - name : Game Design
-      - name : Social Media Marketing
-      - name : Mobile UI Design
+      - name : Often the security of your product must be evaluated without requiring major changes to your code base and while keeping your business online. A penetration test or a full audit of your product depicts well-established means to assess and further improve on the security of your products.. Using a black-box or white-box approach, your product will be tested from the perspective of an attacker. Furthermore, a hardening analysis of the environment hosting your project and an in-depth code review allows for advanced security assessment in order to meet internal security policies or to comply with legal requirements.

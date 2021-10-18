@@ -25,10 +25,9 @@ logo = "images/logo.png"
 [Languages.en]
 weight = 2
 languageCode = "en-us"
-title = "Example site multi-language"
+title = "André Schaller - Fine Cyber Security Enginneering Translate to English"
 dateFormat = "January 2, 2006"
 home = "Home"
-logo = "images/logo.png"
 menufixed = false
 
 footerDescription = "Integer posuere erat a ante venenati dapibus posuere velit aliquet. Fusce dapibus, tellus cursus commodo, tortor mauris sed posuere."
@@ -45,31 +44,31 @@ expire_days = 2
 
 # Hero Area Section
 [Languages.en.params.hero]
-enable  = false
-heading = "We love to make brands grow"
-description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At quo dolor est incidunt suscipit minima, alias numquam voluptatum rerum porro. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore at laboriosam unde repellat id expedita quae quisquam libero officia consequatur."
+enable  = true
+heading = "Dr.-Ing. André Schaller"
+subHeading = "FINE CYBER SECURITY ENGINEERING"
+description = "Security Engineering understood as the art of interleaving strong security primitives and concepts with efficient and effective IT solutions – comprising the underlying hardware as well as the software stack. This principle lies at the heart of my work as a Cyber Security Engineer. With years of experience in computer security research as well as in industry, I am looking forward to share my experience with you in order to establish, review and asses security aspects in your projects and applications. Together, we can establish non-complex security solutions tailored to your specific needs and make your projects ready for the challenges of today’s interconnected, pervasive world."
 button  = true
-btnText = "Know More"
+btnText = "Request a service"
 btnURL  = "https://themefisher.com/"
-videoThumb = "images/slider/video-player-thumb.jpg"
-videoURL   = "https://www.youtube.com/embed/g3-VxLQO7do"
+thumb = "images/about/me.jpeg"
 
 # About 2 Section
 [Languages.en.params.aboutSm]
-enable  = true
+enable  = false
 title   = "We have explored the digital landscape with passion for a long time"
 description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae deleniti ipsa labore necessitatibus culpa veritatis quo accusantium, neque enim ea ad eaque iure, quas tempore velit, quibusdam dolor illo! Explicabo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid quisquam maiores iste soluta, nihil dolorem?"
 
 # Blog Section On Homepage
 [Languages.en.params.blog]
-enable  = true
+enable  = false
 topTitle= "OUR UNTOLD STORY"
 title   = "Blog."
 subtitle= "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"
 
 # Contact Section
 [Languages.en.params.contact]
-enable  = true
+enable  = false
 topTitle= "DROP US A NOTE"
 title   = "Contact Us."
 subtitle= "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"
@@ -99,25 +98,37 @@ btnText = "Contact Us"
 [menu]
 # Navbar Menus
 [[menu.nav]]
-name    = "about"
-url     = "about"
-weight  = 2
-[[menu.nav]]
 name    = "service"
 url     = "service"
-weight  = 3
-[[menu.nav]]
-name    = "portfolio"
-url     = "portfolio"
-weight  = 4
-[[menu.nav]]
-name    = "blog"
-url     = "blog"
-weight  = 5
+weight  = 2
 [[menu.nav]]
 name    = "contact"
 url     = "contact"
+weight  = 3
+[[menu.nav]]
+name    = "about"
+url     = "about"
+weight  = 4
+[[menu.nav]]
+name    = "reference"
+url     = "reference"
+weight  = 5
+[[menu.nav]]
+name    = "publications"
+url     = "publications"
 weight  = 6
+[[menu.nav]]
+name    = "about"
+url     = "about"
+weight  = 7
+[[menu.nav]]
+name    = "disclaimer"
+url     = "disclaimer"
+weight  = 8
+[[menu.nav]]
+name    = "privacy"
+url     = "privacy"
+weight  = 9
 
 # Footer Service Menu
 [[menu.service]]

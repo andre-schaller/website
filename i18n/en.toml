@@ -1,24 +1,18 @@
-[about]
-other = "About"
+[home]
+other = "Home"
 [service]
-other = "Service"
-[portfolio]
-other = "Portfolio"
+other = "Services"
+[reference]
+other = "References"
+[publications]
+other = "Publications"
+[about]
+other = "About me"
+[disclaimer]
+other = "Disclaimer"
+[privacy]
+other = "Privacy policy"
 [blog]
 other = "Blog"
 [contact]
-other = "Contact"
-
-[graphicdesign]
-other = "Graphic Design"
-[webdesign]
-other = "Web Design"
-[webdevelopment]
-other = "Web Development"
-
-[partners]
-other = "Partners"
-[faqs]
-other = "FAQ's"
-[badges]
-other = "Badges"
+other = "Request a service"

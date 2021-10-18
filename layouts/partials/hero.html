@@ -1,0 +1,52 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
+{{ if .Site.Params.hero.enable }}
+{{ "<!-- Hero Area -->" | safeHTML }}
+<section class="hero-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="video-player">
+                    <img class="img-fluid rounded" src="{{ with .Site.Params.hero.thumb }}{{.| absURL }}{{ end }}" alt="video-thumb">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="block">
+                    {{ with .Site.Params.hero.heading }}
+                        <h2>{{ . }}</h2>
+                    {{ end }}
+                    {{ with .Site.Params.hero.subHeading }}
+                        <h5>{{ . }}</h5>
+                    {{ end }}
+                    {{ with .Site.Params.hero.description }}
+                        <p>{{ . }}</p>
+                    {{ end }}
+                </div>
+                <div class="block expertise">
+                    {{ with $data.expertise }}
+                        <h3>{{ .topTitle }}</h3>
+                        {{ if .enable }}
+                            <ul>
+                            {{ range .item }}
+                                <li>{{ .title }}</li>
+                            {{ end }}
+                            </ul>
+                        {{ end }}
+                    {{ end }}
+                </div>
+                <div class="block">
+                    {{ if .Site.Params.hero.button }}
+                        <ul class="list-inline wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".7s">
+                            <li class="list-inline-item">
+                                <a href="{{ with .Site.Params.hero.btnURL }}{{.}}{{ end }}" target="_blank" class="btn btn-main">{{ with .Site.Params.hero.btnText }}{{.}}{{ end }}</a>
+                            </li>
+                        </ul>
+                    {{ end }}
+                </div>
+            </div>
+            <div class="col-md-6">
+                
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}
