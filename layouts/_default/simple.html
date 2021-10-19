@@ -1,0 +1,16 @@
+{{ define "main" }}
+
+<section class="blog-single section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 mx-auto">
+                <h2>{{ .Title }}</h2>
+                <div {{ if .Params.section }}class="{{ .Params.section }}"{{ end }}>
+                    {{ .Content }}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{{ end }}

@@ -3,3 +3,19 @@
   color: #707d8f;
   padding-left: 30px;
 }
+
+.reference td, .reference th {
+  padding: 5px;
+}
+
+.publications ul {
+  list-style-type: disc;
+}
+
+.publications h2 {
+  padding-top: 30px;
+}
+
+.author {
+  color: white;
+}
