@@ -1,6 +1,36 @@
 {{ "<!-- Footer Start -->" | safeHTML }}
 <footer id="footer" class="bg-one">
     <div class="footer-bottom">
+          <ul class="list-inline social-icon">
+            {{ with .Site.Params.contact.email }}
+            <li class="list-inline-item">
+                <a href="mailto:{{.}}">
+                    <i class="tf-ion-email"></i>
+                </a>
+            </li>
+            {{ end }}
+            {{ with .Site.Params.contact.xing }}
+            <li class="list-inline-item">
+                <a href="{{.}}">
+                    <i class="fab fa-xing-square"></i>
+                </a>
+            </li>
+            {{ end }}
+            {{ with .Site.Params.contact.linkedin }}
+            <li class="list-inline-item">
+                <a href="{{.}}">
+                    <i class="tf-ion-social-linkedin"></i>
+                </a>
+            </li>
+            {{ end }}
+            {{ with .Site.Params.contact.skype }}
+            <li class="list-inline-item">
+                <a href="{{.}}">
+                    <i class="tf-ion-social-skype"></i>
+                </a>
+            </li>
+            {{ end }}
+        </ul>
         <h5>Copyright 2021. All rights reserved.</h5>
         <h6>Design and Developed by Themefisher
             <br>Get More
