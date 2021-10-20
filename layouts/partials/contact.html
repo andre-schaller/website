@@ -15,29 +15,34 @@
             </div>
         </div>
         <div class="row">
-            {{ "<!-- Contact Details -->" | safeHTML }}
-            <div class="col-12 col-md-6">
-                <div class="map">
-                    <div id="map" data-lat="{{ .Site.Params.contact.mapLatitude }}" data-long="{{ .Site.Params.contact.mapLongitude }}" data-marker="{{ .Site.Params.contact.mapMarker | absURL }}"></div>
-                </div>
-            </div>
             {{ "<!-- Contact Form -->" | safeHTML }}
             <div class="contact-form col-12 col-md-6 ">
-                <form id="contact-form" method="post" action="sendmail.php" role="form">
+                <form id="contact-form" method="post" netlify>
                     <div class="form-group">
-                        <input type="text" placeholder="Your Name" class="form-control" name="name" id="name">
+                        <input type="text" placeholder="Name" class="form-control" name="name" id="name">
                     </div>
 
                     <div class="form-group">
-                        <input type="email" placeholder="Your Email" class="form-control" name="email" id="email">
+                        <input type="email" placeholder="Email" class="form-control" name="email" id="email">
                     </div>
 
                     <div class="form-group">
-                        <input type="text" placeholder="Subject" class="form-control" name="subject" id="subject">
+                        <input type="text" placeholder="Website URL" class="form-control" name="website" id="website">
                     </div>
 
+                    <fieldset class="form-group">
+                        <ul>
+                            <li><input type="radio" name="service" id="service_1" value="Penetration Test"><label for="service_1">Penetration Test</label></li>
+                            <li><input type="radio" name="service" id="service_2" value="Vulnerability Scan"><label for="service_2">Vulnerability Scan</label></li>
+                            <li><input type="radio" name="service" id="service_3" value="Hardening Scan"><label for="service_2">Hardening Scan</label></li>
+                            <li><input type="radio" name="service" id="service_4" value="Review of Security Architecture"><label for="service_2">Review of Security Architecture</label></li>
+                            <li><input type="radio" name="service" id="service_5" value="Development of Security Architecture"><label for="service_2">Development of Security Architecture</label></li>
+                            <li><input type="radio" name="service" id="service_6" value="Implementation of Security Primitives, Protocols, etc."><label for="service_2">Implementation of Security Primitives, Protocols, etc.</label></li>
+                        </ul>
+                    </fieldset>
+
                     <div class="form-group">
-                        <textarea rows="6" placeholder="Message" class="form-control" name="message" id="message"></textarea>
+                        <textarea rows="6" placeholder="Request Notes" class="form-control" name="notes" id="notes"></textarea>
                     </div>
 
                     <div id="mail-success" class="success">
