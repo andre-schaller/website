@@ -121,6 +121,23 @@
 
 
 
+		/* ========================================================================= */
+		/*   Contact Form Validating
+		/* ========================================================================= */
+
+
+		$('#contact-submit').click(function (e) {
+			//and show the mail success div with fadeIn
+			$('#mail-success').fadeIn(500);
+			//and show the mail success div with fadeIn
+			$('#mail-success').fadeOut(1000);
+		});
+
+
+	})(jQuery);
+
+
+
 	window.marker = null;
 
 	function initialize() {
