@@ -127,10 +127,10 @@
 
 
 		$('#contact-submit').click(function (e) {
-			//if the mail is sent remove the submit paragraph
-			$('#cf-submit').remove();
 			//and show the mail success div with fadeIn
 			$('#mail-success').fadeIn(500);
+			//and show the mail success div with fadeIn
+			$('#mail-success').fadeOut(1000);
 		});
 
 
