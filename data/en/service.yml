@@ -8,12 +8,12 @@ item      :
     list  :
       - name : Integrating a comprehensive security architecture during an early phase of your project ensures the highest degree of security during operation while maintaining a maximum of efficiency of your solution. Incorporating security aspects into the architecture of your solution right at the beginning of the project’s life cycle also helps to minimize maintenance efforts and costs as and allows for a higher flexibility allowing for changes in case of new demands.
 
-  - icon  : tf-ion-ios-alarm-outline
+  - icon  : tf-ion-ios-construct-outline
     title : Implementation
     list  :
       - name : A key point when realizing a security architecture or even a simple cryptographic routine lies in the secure implementation of well-known cryptographic primitives. Only well-crafted cryptographic implementations can apply and thus guarantee the security properties of the underlying primitives. In turn, bad implementations may weaken the security of your application despite the use of strong cryptographic primitives. On top, some platforms require lightweight primitives due to memory or computational constraints, which do not allow for the employment of traditional schemes, such as AES, RSA and such like. While lightweight novel lightweight hash functions, stream and block ciphers exist, they require special care during implementation as existing knowledge about secure implementation is not as accessible as for traditional schemes.
 
-  - icon  : tf-ion-ios-book-outline
+  - icon  : tf-ion-ios-eye-outline
     title : Auditing
     list  :
       - name : Often the security of your product must be evaluated without requiring major changes to your code base and while keeping your business online. A penetration test or a full audit of your product depicts well-established means to assess and further improve on the security of your products.. Using a black-box or white-box approach, your product will be tested from the perspective of an attacker. Furthermore, a hardening analysis of the environment hosting your project and an in-depth code review allows for advanced security assessment in order to meet internal security policies or to comply with legal requirements.
