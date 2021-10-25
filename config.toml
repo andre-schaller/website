@@ -71,9 +71,9 @@ subtitle= "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reici
 [Languages.en.params.contact]
 enable  = true
 topTitle= "DROP ME A NOTE"
-title   = "Contact me."
+title   = "Request a Service."
 subtitle= ""
-address = "14/05, Stockhome <br> Victori Palace , United States"
+address = "Berliner Allee, 64295 Darmstadt, Germany"
 phone   = "+496151-6290219"
 fax     = ""
 email= "andre@andreschaller.de"

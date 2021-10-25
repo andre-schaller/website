@@ -8,6 +8,8 @@ Below you can find a selection of clients that employed my services.
 
 | __Website / Platform__ | __Service__ |
 |------------------------|-------------|
+| https://www.candor.co | Penetration Test (grey-box) |
+| https://www.clynxx.com | Penetration Test (black-box) |
 | https://cda.courtdata.com.au | Penetration Test (black-box) |
 | https://www.ourbranch.com/ | Penetration Test (grey-box) |
 | https://www.pspesa.com/ | Penetration Test (black-box) |
