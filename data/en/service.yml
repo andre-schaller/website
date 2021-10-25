@@ -8,7 +8,7 @@ item      :
     list  :
       - name : Integrating a comprehensive security architecture during an early phase of your project ensures the highest degree of security during operation while maintaining a maximum of efficiency of your solution. Incorporating security aspects into the architecture of your solution right at the beginning of the project’s life cycle also helps to minimize maintenance efforts and costs as and allows for a higher flexibility allowing for changes in case of new demands.
 
-  - icon  : tf-ion-ios-code-outline
+  - icon  : tf-ion-ios-albums-outline
     title : Implementation
     list  :
       - name : A key point when realizing a security architecture or even a simple cryptographic routine lies in the secure implementation of well-known cryptographic primitives. Only well-crafted cryptographic implementations can apply and thus guarantee the security properties of the underlying primitives. In turn, bad implementations may weaken the security of your application despite the use of strong cryptographic primitives. On top, some platforms require lightweight primitives due to memory or computational constraints, which do not allow for the employment of traditional schemes, such as AES, RSA and such like. While lightweight novel lightweight hash functions, stream and block ciphers exist, they require special care during implementation as existing knowledge about secure implementation is not as accessible as for traditional schemes.
