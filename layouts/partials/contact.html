@@ -112,9 +112,10 @@
                             </a>
                         </li>
                         {{ end }}
+                        {{ with .Site.Params.contact.key }}
                         <li class="list-inline-item">
-                            <a href="/key/andre.schaller.asc">
-                                <i class="tf-ion-social-key"></i>
+                            <a href="{{.}}">
+                                <i class="tf-ion-social-skype"></i>
                             </a>
                         </li>
                     </ul>
