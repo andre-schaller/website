@@ -1,4 +1,4 @@
-baseURL = "https://andreschaller.de"
+baseURL = "https://www.andreschaller.de"
 languageCode = "en-us"
 title = "André Schaller - Fine Cyber Security Enginneering"
 theme = "navigator-hugo"
