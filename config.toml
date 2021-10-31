@@ -51,7 +51,7 @@ subHeading = "FINE CYBER SECURITY ENGINEERING"
 description = "Security Engineering understood as the art of interleaving strong security primitives and concepts with efficient and effective IT solutions – comprising the underlying hardware as well as the software stack. This principle lies at the heart of my work as a Cyber Security Engineer. With years of experience in computer security research as well as in industry, I am looking forward to share my experience with you in order to establish, review and asses security aspects in your projects and applications. Together, we can establish non-complex security solutions tailored to your specific needs and make your projects ready for the challenges of today’s interconnected, pervasive world."
 button  = true
 btnText = "Request a service"
-btnURL  = "https://www.andreschaller.de/contact/"
+btnURL  = "/contact"
 #btnURL  = "https://themefisher.com/"
 thumb = "images/about/me.jpeg"
 
