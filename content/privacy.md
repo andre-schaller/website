@@ -1,11 +1,6 @@
 ---
-title: Privacy Policy
-layout: simple
----
-
-    ---
-title: Privacy Policy
-layout: simple
+Privacy Policy
+simple
 ---
 
 Datenschutzerklärung
